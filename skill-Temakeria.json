@@ -1,0 +1,3422 @@
+{
+  "intents": [
+    {
+      "intent": "horario_funcionamento",
+      "examples": [
+        {
+          "text": "Até que horas posso fazer o meu pedido?"
+        },
+        {
+          "text": "ta aberto agora?"
+        },
+        {
+          "text": "Funciona de que horas até que horas?"
+        },
+        {
+          "text": "até que horas posso comprar?"
+        },
+        {
+          "text": "até que horas posso pedir?"
+        },
+        {
+          "text": "até que horas posso fazer meu pedido?"
+        },
+        {
+          "text": "Que horas fecha?"
+        },
+        {
+          "text": "Vocês abrem no almoço?"
+        },
+        {
+          "text": "Sabem me dizer se vocês funcionam no domingo?"
+        },
+        {
+          "text": "Amanhã vocês vão estar aberto?"
+        },
+        {
+          "text": "Hoje funciona?"
+        },
+        {
+          "text": "Que horas abre?"
+        },
+        {
+          "text": "Ainda tá aberto?"
+        },
+        {
+          "text": "Qual horário ficam abertos?"
+        },
+        {
+          "text": "Você funcionam todos os dias?"
+        },
+        {
+          "text": "Que horas vocês abrem?"
+        },
+        {
+          "text": "Que horas vocês começam a atender?"
+        },
+        {
+          "text": "Posso pedir meu temaki agora?"
+        },
+        {
+          "text": "Ainda posso pedir um temaki?"
+        },
+        {
+          "text": "Estão abertos agora?"
+        },
+        {
+          "text": "Quais dias vocês funcionam?"
+        },
+        {
+          "text": "Você abrem final de semana?"
+        },
+        {
+          "text": "Qual horário de funcionamento?"
+        },
+        {
+          "text": "Vocês funcionam de que horas a que horas?"
+        },
+        {
+          "text": "Está aberto?"
+        },
+        {
+          "text": "Até que horas fica aberto?"
+        },
+        {
+          "text": "Ainda está aberto?"
+        },
+        {
+          "text": "Estão funcionando agora?"
+        },
+        {
+          "text": "Ainda dá para fazer pedido?"
+        },
+        {
+          "text": "Até que horas vocês funcionam?"
+        },
+        {
+          "text": "Qual o horário de funcionamento?"
+        },
+        {
+          "text": "Fecha que horas?"
+        },
+        {
+          "text": "ta funcionando agora?"
+        },
+        {
+          "text": "Até que horas vocês entregam?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "sair",
+      "examples": [
+        {
+          "text": "cancelar pedido"
+        },
+        {
+          "text": "Cancelar"
+        },
+        {
+          "text": "exit"
+        },
+        {
+          "text": "sair"
+        },
+        {
+          "text": "quero sair"
+        },
+        {
+          "text": "fechar"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "off-topic",
+      "examples": [
+        {
+          "text": "idiota"
+        },
+        {
+          "text": "gosto de você"
+        },
+        {
+          "text": "estúpido"
+        },
+        {
+          "text": "casa comigo?"
+        },
+        {
+          "text": "te adoro"
+        },
+        {
+          "text": "você é muito ruim"
+        },
+        {
+          "text": "você é horrivel"
+        },
+        {
+          "text": "te odeio"
+        },
+        {
+          "text": "te amo"
+        },
+        {
+          "text": "burro"
+        },
+        {
+          "text": "que raiva de você"
+        },
+        {
+          "text": "que droga"
+        },
+        {
+          "text": "Qual sua idade"
+        },
+        {
+          "text": "porque você é idiota"
+        },
+        {
+          "text": "não sabe fazer nada"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "despedida",
+      "examples": [
+        {
+          "text": "vou embora"
+        },
+        {
+          "text": "Tchau"
+        },
+        {
+          "text": "Até mais"
+        },
+        {
+          "text": "Adeus"
+        },
+        {
+          "text": "t+"
+        },
+        {
+          "text": "bye"
+        },
+        {
+          "text": "Até a próxima"
+        },
+        {
+          "text": "Hasta luego"
+        },
+        {
+          "text": "Até uma próxima vez"
+        },
+        {
+          "text": "Vou indo"
+        },
+        {
+          "text": "xau"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "Vou nessa"
+        },
+        {
+          "text": "Vazando"
+        },
+        {
+          "text": "tchauzinho"
+        },
+        {
+          "text": "xau xau"
+        },
+        {
+          "text": "até depois"
+        },
+        {
+          "text": "até logo"
+        },
+        {
+          "text": "adeusinho"
+        },
+        {
+          "text": "xoxo"
+        },
+        {
+          "text": "inté"
+        },
+        {
+          "text": "até mais tarde"
+        },
+        {
+          "text": "tchau, agora preciso ir embora!"
+        },
+        {
+          "text": "preciso ir"
+        },
+        {
+          "text": "até a aproxima"
+        },
+        {
+          "text": "até amanhã"
+        },
+        {
+          "text": "blz, vlw"
+        },
+        {
+          "text": "(y)"
+        },
+        {
+          "text": ":wave:"
+        },
+        {
+          "text": "Até já"
+        },
+        {
+          "text": "Passar bem"
+        },
+        {
+          "text": "Beijomeliga"
+        },
+        {
+          "text": "Até mais ver"
+        },
+        {
+          "text": "Valeu"
+        },
+        {
+          "text": "fui"
+        },
+        {
+          "text": "flw"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ver_cardapio",
+      "examples": [
+        {
+          "text": "Cardápio, por favor"
+        },
+        {
+          "text": "O que tem para hoje?"
+        },
+        {
+          "text": "Cardapio"
+        },
+        {
+          "text": "Quais as opções?"
+        },
+        {
+          "text": "Quais sabores temos?"
+        },
+        {
+          "text": "Quais temakis há disponiveis?"
+        },
+        {
+          "text": "Tem temaki de @sabor?"
+        },
+        {
+          "text": "Tem cardápio?"
+        },
+        {
+          "text": "Quero ver o cardápio da casa"
+        },
+        {
+          "text": "O que você recomenda?"
+        },
+        {
+          "text": "Quais os itens do cardápio?"
+        },
+        {
+          "text": "Quero conhecer as opções"
+        },
+        {
+          "text": "Quero montar um temaki"
+        },
+        {
+          "text": "Tem temaki vegano?"
+        },
+        {
+          "text": "Quero ver o cardápio."
+        },
+        {
+          "text": "tem nada mais barato não?"
+        },
+        {
+          "text": "Qual o mais caro?"
+        },
+        {
+          "text": "Quais os sabores de temaki?"
+        },
+        {
+          "text": "Qual o item mais barato?"
+        },
+        {
+          "text": "Quais as opções disponíveis?"
+        },
+        {
+          "text": "me mostra as promoções"
+        },
+        {
+          "text": "Qual o barato do dia?"
+        },
+        {
+          "text": "Menu"
+        },
+        {
+          "text": "Quero ver os sabores de temaki"
+        },
+        {
+          "text": "qual a boa de hoje?"
+        },
+        {
+          "text": "Quais sao os sabores?"
+        },
+        {
+          "text": "promoção"
+        },
+        {
+          "text": "O que o japa sabe fazer?"
+        },
+        {
+          "text": "Qual o prato do chef?"
+        },
+        {
+          "text": "Qual a especialidade da casa?"
+        },
+        {
+          "text": "Quais as promoções do dia?"
+        },
+        {
+          "text": "tem refri 2l?"
+        },
+        {
+          "text": "Quais sao as opcoes?"
+        },
+        {
+          "text": "me mostra o cardapio"
+        },
+        {
+          "text": "quais sao as opções de bebidas?"
+        },
+        {
+          "text": "tem coca?"
+        },
+        {
+          "text": "quais sao as bebidas?"
+        },
+        {
+          "text": "O que temos para hoje?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "agradecimento",
+      "examples": [
+        {
+          "text": "Valeu"
+        },
+        {
+          "text": "Obrigado"
+        },
+        {
+          "text": "Muchas gracias"
+        },
+        {
+          "text": "ty"
+        },
+        {
+          "text": "Muito obrigado"
+        },
+        {
+          "text": "Muitos thanks"
+        },
+        {
+          "text": "tks"
+        },
+        {
+          "text": "Agradecido"
+        },
+        {
+          "text": "Você me ajudou muito"
+        },
+        {
+          "text": "Gracias"
+        },
+        {
+          "text": "Thanks"
+        },
+        {
+          "text": "Vlw"
+        },
+        {
+          "text": "Thank you"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "fazerPedido",
+      "examples": [
+        {
+          "text": "me vê um japa ai"
+        },
+        {
+          "text": "Gostaria de fazer meu pedido"
+        },
+        {
+          "text": "Quero pedir um temaki"
+        },
+        {
+          "text": "Fazer meu pedido"
+        },
+        {
+          "text": "Posso fazer meu pedido?"
+        },
+        {
+          "text": "Tem como pedir um Temaki?"
+        },
+        {
+          "text": "Quero fazer meu pedido"
+        },
+        {
+          "text": "Me vê um temaki"
+        },
+        {
+          "text": "Me dê um temaki"
+        },
+        {
+          "text": "Quero um temaki"
+        },
+        {
+          "text": "Solicito fazer meu pedido"
+        },
+        {
+          "text": "Fazer pedido"
+        },
+        {
+          "text": "Iniciar pedido"
+        },
+        {
+          "text": "Anota meu pedido"
+        },
+        {
+          "text": "Como consigo pedir um temaki?"
+        },
+        {
+          "text": "Quero comprar um temaki"
+        },
+        {
+          "text": "Favor gostaria de pedir um temaki"
+        },
+        {
+          "text": "Por favor gostaria de um temaki"
+        },
+        {
+          "text": "Me envie um temaki"
+        },
+        {
+          "text": "Por favor um temaki"
+        },
+        {
+          "text": "Um temaki, por favor"
+        },
+        {
+          "text": "Eu gostaria de fazer um pedido"
+        },
+        {
+          "text": "To com fome"
+        },
+        {
+          "text": "Quero comer"
+        },
+        {
+          "text": "Quero pedir"
+        },
+        {
+          "text": "Eu gostaria de um temaki de @sabor"
+        },
+        {
+          "text": "Eu quero um temaki de @sabor"
+        },
+        {
+          "text": "Seria bom um temaki"
+        },
+        {
+          "text": "Estou com fome"
+        },
+        {
+          "text": "Eu gostaria de um temaki"
+        },
+        {
+          "text": "pedido"
+        },
+        {
+          "text": "Quero realizar meu pedido"
+        },
+        {
+          "text": "posso fazer meu pedido"
+        },
+        {
+          "text": "quero fazer um pedido para entrega"
+        },
+        {
+          "text": "Quero fazer meu pedido."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "sim",
+      "examples": [
+        {
+          "text": "ok"
+        },
+        {
+          "text": "yeap"
+        },
+        {
+          "text": "positivo"
+        },
+        {
+          "text": "s"
+        },
+        {
+          "text": "sim"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ajuda",
+      "examples": [
+        {
+          "text": "Você pode me ajudar?"
+        },
+        {
+          "text": "Como você pode me ajudar"
+        },
+        {
+          "text": "O que posso fazer?"
+        },
+        {
+          "text": "Eu não entendo"
+        },
+        {
+          "text": "porque você não me ajuda"
+        },
+        {
+          "text": "SOS"
+        },
+        {
+          "text": "Socorro"
+        },
+        {
+          "text": "Quais são os seus comandos?"
+        },
+        {
+          "text": "Precisa me ajudar"
+        },
+        {
+          "text": "Pra que você existe?"
+        },
+        {
+          "text": "Porquê você existe?"
+        },
+        {
+          "text": "Para que você foi criada?"
+        },
+        {
+          "text": "Qual sua função?"
+        },
+        {
+          "text": "O que você sabe fazer?"
+        },
+        {
+          "text": "O que você é?"
+        },
+        {
+          "text": "O que você faz?"
+        },
+        {
+          "text": "O que fazer?"
+        },
+        {
+          "text": "não sei para que você existe"
+        },
+        {
+          "text": "Não sei o que fazer"
+        },
+        {
+          "text": "não estou entendendo"
+        },
+        {
+          "text": "estou perdido"
+        },
+        {
+          "text": "me diga alguma coisa"
+        },
+        {
+          "text": "Capacidades"
+        },
+        {
+          "text": "Me ajude"
+        },
+        {
+          "text": "lista do que fazer"
+        },
+        {
+          "text": "O que você pode fazer?"
+        },
+        {
+          "text": "lista de comandos"
+        },
+        {
+          "text": "lista"
+        },
+        {
+          "text": "Help"
+        },
+        {
+          "text": "listar comandos"
+        },
+        {
+          "text": "Ajuda, por favor"
+        },
+        {
+          "text": "Preciso de ajuda"
+        },
+        {
+          "text": "Ajuda"
+        },
+        {
+          "text": "comandos"
+        },
+        {
+          "text": "Como você pode me ajudar?"
+        },
+        {
+          "text": "Como funciona?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "saudacao",
+      "examples": [
+        {
+          "text": "td bem"
+        },
+        {
+          "text": "olá, tudo bem?"
+        },
+        {
+          "text": "ola tudo bem"
+        },
+        {
+          "text": "oi tudo bem?"
+        },
+        {
+          "text": "ois"
+        },
+        {
+          "text": "Opa"
+        },
+        {
+          "text": "Koe"
+        },
+        {
+          "text": "Buenas noches"
+        },
+        {
+          "text": "Buenos dias"
+        },
+        {
+          "text": "Buenas tardes"
+        },
+        {
+          "text": "Oila"
+        },
+        {
+          "text": "Eai"
+        },
+        {
+          "text": "E ai"
+        },
+        {
+          "text": "Olá"
+        },
+        {
+          "text": "Oi"
+        },
+        {
+          "text": "Oie"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hola"
+        },
+        {
+          "text": "Bom dia"
+        },
+        {
+          "text": "Boa tarde"
+        },
+        {
+          "text": "Boa noite"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "good evening"
+        },
+        {
+          "text": "good afternoon"
+        },
+        {
+          "text": "Salve"
+        },
+        {
+          "text": "Saudações"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "Tudo bem?"
+        },
+        {
+          "text": "Fala"
+        },
+        {
+          "text": "Alô"
+        },
+        {
+          "text": "como vai você?"
+        },
+        {
+          "text": "Como vai?"
+        },
+        {
+          "text": "como está?"
+        },
+        {
+          "text": "como que tu tá?"
+        },
+        {
+          "text": "Oi, tudo bem?"
+        },
+        {
+          "text": "como você está se sentindo?"
+        },
+        {
+          "text": "tudo na boa?"
+        },
+        {
+          "text": "eai?"
+        },
+        {
+          "text": "e aí?"
+        },
+        {
+          "text": "eaii"
+        },
+        {
+          "text": "e ai? só na boa?"
+        },
+        {
+          "text": "e ai? só de boa?"
+        },
+        {
+          "text": "qual a boa?"
+        },
+        {
+          "text": "qual a brisa?"
+        },
+        {
+          "text": "qual a fita?"
+        },
+        {
+          "text": "só de boa?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "forma_pagamento",
+      "examples": [
+        {
+          "text": "Só aceita cartão?"
+        },
+        {
+          "text": "Dinheiro"
+        },
+        {
+          "text": "Cartão de Crédito"
+        },
+        {
+          "text": "Quais as formas de pagamento aceitas?"
+        },
+        {
+          "text": "Qual meio de pagamento?"
+        },
+        {
+          "text": "Aceita cartão?"
+        },
+        {
+          "text": "Traz maquininha?"
+        },
+        {
+          "text": "Paga na hora?"
+        },
+        {
+          "text": "Quais as formas de pagamento?"
+        },
+        {
+          "text": "Aceita vale?"
+        },
+        {
+          "text": "Aceita VA?"
+        },
+        {
+          "text": "Aceita VR?"
+        },
+        {
+          "text": "Aceita Vale alimentação?"
+        },
+        {
+          "text": "Aceita Vale Refeição?"
+        },
+        {
+          "text": "Aceitam cartão de crédito?"
+        },
+        {
+          "text": "A maquininha de voces aceitam American Express?"
+        },
+        {
+          "text": "Posso pagar em dinheiro?"
+        },
+        {
+          "text": "Pago na entrega?"
+        },
+        {
+          "text": "Eu tenho cheque aqui. Vocês aceitam?"
+        },
+        {
+          "text": "Aceita ticket?"
+        },
+        {
+          "text": "Vocês dividem?"
+        },
+        {
+          "text": "Aceitam picpay?"
+        },
+        {
+          "text": "Faz fiado?"
+        },
+        {
+          "text": "Divide em quantas vezes?"
+        },
+        {
+          "text": "Como posso pagar?"
+        },
+        {
+          "text": "Como faço para pagar?"
+        },
+        {
+          "text": "Quero pagar"
+        },
+        {
+          "text": "Aceita no débito?"
+        },
+        {
+          "text": "Sobre a forma de pagamento"
+        },
+        {
+          "text": "Suas formas de pagamento aceitadas"
+        },
+        {
+          "text": "Posso pagar no dinheiro ou só aceita cartão?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "menu",
+      "examples": [
+        {
+          "text": "return"
+        },
+        {
+          "text": "menu"
+        },
+        {
+          "text": "comands"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "reset",
+      "examples": [
+        {
+          "text": "iniciar novamente"
+        },
+        {
+          "text": "começar de novo"
+        },
+        {
+          "text": "cancelar pedido e começar outro"
+        },
+        {
+          "text": "reiniciar o pedido"
+        },
+        {
+          "text": "reset"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "adicionais",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Doritos",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "couve",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "completo",
+          "synonyms": [
+            "cebolinha e cream cheese"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cebolinha",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Azeite",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Amêndoas",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "cenoura",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "cream cheese",
+          "synonyms": [
+            "cream"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Molho Tarê",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Raspas de Limão",
+          "synonyms": [
+            "limão",
+            "limão siciliano"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pepino",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pimenta japonesa",
+          "synonyms": [
+            "spicy"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Morango",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Manga",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Maionese",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Laranja",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Gergelim",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "telefone",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "telefone",
+          "patterns": [
+            "(\\\\d{5})-(\\\\d{4})",
+            "(\\\\d{4})-(\\\\d{4})"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "bebidas",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Suco de limão",
+          "synonyms": [
+            "limonada"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "vinho",
+          "synonyms": [
+            "vinhozinho",
+            "tinto",
+            "vinho tinto",
+            "vinho branco"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "agua",
+          "synonyms": [
+            "aqua",
+            "água"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Guaraná",
+          "synonyms": [
+            "garaná",
+            "Dolly",
+            "Kuat",
+            "Guaraná Antantica"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Suco de laranja",
+          "synonyms": [
+            "laranjada"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cerveja",
+          "synonyms": [
+            "birita",
+            "breja",
+            "bereja"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Sprite",
+          "synonyms": [
+            "espraite",
+            "spraite",
+            "spraiti",
+            "espraiti",
+            "spryte"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Coca-Cola",
+          "synonyms": [
+            "coca",
+            "coke"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sentimento_positivo",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "estou bem",
+          "synonyms": [
+            "bem",
+            "bem de boa",
+            "tranquilo",
+            "bom de mais",
+            "extremamente bem",
+            "radiante",
+            "numa boa",
+            "numa nice",
+            "sussa",
+            "de bobis",
+            "muito bem",
+            "muito de boa",
+            "suave",
+            "suave na nave",
+            "de boa na lagoa",
+            "to bem de mais",
+            "indo",
+            "to de boa"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-currency",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "horariododia",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "tarde",
+          "synonyms": [
+            "afternoon",
+            "tardes"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "noite",
+          "synonyms": [
+            "noches",
+            "evening",
+            "night"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "dia",
+          "synonyms": [
+            "manhã",
+            "manha",
+            "morning",
+            "dias"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "cardapio",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "bebidas",
+          "synonyms": [
+            "bebida"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "temaki",
+          "synonyms": [
+            "tmki",
+            " emaki",
+            " temak",
+            " tmaki",
+            " temaqui",
+            " temaqu",
+            " timaki"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sim_não",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "sim",
+          "synonyms": [
+            "claro",
+            "yep",
+            "positivo",
+            "si",
+            "s",
+            "yes",
+            "com certeza",
+            "opa",
+            "certeza",
+            "com toda certeza",
+            "obvio",
+            "óbvio",
+            "sim né"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "não",
+          "synonyms": [
+            "não obrigado",
+            "nao",
+            "no",
+            "n",
+            "ñ",
+            "nope",
+            "negativo",
+            "none",
+            "nono",
+            "not",
+            "nenaninanão",
+            "naonao",
+            "noa",
+            "noã",
+            "naõ",
+            "na~o",
+            "não não"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "preparo",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "defumado",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "light",
+          "synonyms": [
+            "sem arroz"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cru",
+          "synonyms": [
+            "normal",
+            "tradicional"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "grelhado",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "flambado",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "empanado",
+          "synonyms": [
+            "hot",
+            "hot roll",
+            "frito"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sentimento_Negativo",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "estou mal",
+          "synonyms": [
+            "deu ruim",
+            "ta foda",
+            "deu zebra",
+            "chateado",
+            "malzao",
+            "malzão",
+            "muito mal",
+            "nada bem",
+            "nada de boa",
+            "nada susssa",
+            "não to sucessa",
+            "tá ruim",
+            "dia ruim",
+            "acordei com o pé esquerdo",
+            "ta tenso",
+            "to mal",
+            "to tenso",
+            "not good"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "formas_pagamento",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Cartão de Débito",
+          "synonyms": [
+            "debito"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cartão de Crédito",
+          "synonyms": [
+            "credito",
+            "crédito"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Vale restaurante",
+          "synonyms": [
+            "VR",
+            "ticket restaurante"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Dinheiro",
+          "synonyms": [
+            "dinheiro",
+            "dinero",
+            "dinhero",
+            "cache",
+            "cash",
+            "no ato",
+            "a vista"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "cep",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "CEP",
+          "patterns": [
+            "[0-9]{5}-[0-9]{3}"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sabor",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Salmão",
+          "synonyms": [
+            "salmão simples",
+            "salmão cru",
+            "salmão puro",
+            "só salmão",
+            "peixe rosa"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Peixe branco",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Kani",
+          "synonyms": [
+            "Kani-Kama"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Filadélfia",
+          "synonyms": [
+            "salmão grelhado, cream cheese e cebolinha"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "camarão",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Califórnia",
+          "synonyms": [
+            "kani, manga e pepino"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Atum",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Skin",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Forma de Pagamento inválida"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_1_1595794377283",
+      "event_name": "nomatch",
+      "dialog_node": "handler_9_1595794479343",
+      "previous_sibling": "handler_5_1595794377307"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Qual a forma de pagamento?",
+            "options": [
+              {
+                "label": "Dinheiro",
+                "value": {
+                  "input": {
+                    "text": "Dinheiro"
+                  }
+                }
+              },
+              {
+                "label": "Crédito",
+                "value": {
+                  "input": {
+                    "text": "Cartão de Crédito"
+                  }
+                }
+              },
+              {
+                "label": "Débito",
+                "value": {
+                  "input": {
+                    "text": "Cartão de Débito"
+                  }
+                }
+              },
+              {
+                "label": "VR",
+                "value": {
+                  "input": {
+                    "text": "Vale Restaurante"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_1_1595794377283",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1595794377307",
+      "previous_sibling": "handler_1_1595794377307"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1595794377283",
+      "context": {
+        "formas_pagamento": "@formas_pagamento"
+      },
+      "conditions": "@formas_pagamento",
+      "event_name": "input",
+      "dialog_node": "handler_1_1595794377307"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1595429519389",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1595429519415",
+      "previous_sibling": "handler_7_1595429519415"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_9_1595429519389",
+      "event_name": "input",
+      "dialog_node": "handler_7_1595429519415"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "OK vamos iniciar novamente."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1595254341770",
+      "disabled": true,
+      "dialog_node": "response_1_1595523585686",
+      "previous_sibling": "slot_4_1595523597508"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1595254341770",
+      "dialog_node": "slot_4_1595523597508"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "O mestre Sushiman  pega nosso melhor $sabor."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_6_1595257080881",
+      "event_name": "filled",
+      "dialog_node": "handler_5_1595257158710",
+      "previous_sibling": "handler_2_1595257080899"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A Temakeria Kashi se especializou em apenas Temaki customizados, assim você monta do seu jeito, por apenas por 20 Reais. Temos as seguintes opções de sabores:"
+              },
+              {
+                "text": "Temos as seguintes opções de sabores:"
+              },
+              {
+                "text": "Você não prefere uma dessas opções?"
+              },
+              {
+                "text": "Mestre Suhiman olha para você e apresenta as opções:"
+              },
+              {
+                "text": "Mōshiwakearimasenga, sono aji ga arimasen. Kawari ni tsugi no opushon no izureka o sentaku dekimasu ka? (desculpe, não possuímos esse sabor poderia escolher uma das seguintes opções ao invés disso?)"
+              },
+              {
+                "text": "申し訳ありませんが、その味がありません。代わりに次のオプションのいずれかを選択できますか？\n(desculpe, não possuímos esse sabor poderia escolher uma das seguintes opções ao invés disso?)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Atum",
+                "value": {
+                  "input": {
+                    "text": "Atum"
+                  }
+                }
+              },
+              {
+                "label": "Califórnia",
+                "value": {
+                  "input": {
+                    "text": "Califórnia"
+                  }
+                }
+              },
+              {
+                "label": "Camarão",
+                "value": {
+                  "input": {
+                    "text": "camarão"
+                  }
+                }
+              },
+              {
+                "label": "Filadélfia",
+                "value": {
+                  "input": {
+                    "text": "Filadélfia"
+                  }
+                }
+              },
+              {
+                "label": "Kani",
+                "value": {
+                  "input": {
+                    "text": "Kani"
+                  }
+                }
+              },
+              {
+                "label": "Peixe branco",
+                "value": {
+                  "input": {
+                    "text": "Peixe branco"
+                  }
+                }
+              },
+              {
+                "label": "Salmão",
+                "value": {
+                  "input": {
+                    "text": "Salmão"
+                  }
+                }
+              },
+              {
+                "label": "Skin",
+                "value": {
+                  "input": {
+                    "text": "Skin"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_6_1595257080881",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1595257080899",
+      "previous_sibling": "handler_9_1595257080899"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Infelizmente no momento não  temos essa opção no cardápio"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_6_1595257080881",
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "event_name": "nomatch",
+      "dialog_node": "handler_1_1595257206026",
+      "previous_sibling": "handler_5_1595257158710"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1595257080881",
+      "context": {
+        "sabor": "@sabor"
+      },
+      "conditions": "@sabor",
+      "event_name": "input",
+      "dialog_node": "handler_9_1595257080899"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Posso te ajudar"
+              },
+              {
+                "text": "Ainda posse te ajudar"
+              },
+              {
+                "text": "Se quiser ajuda para"
+              },
+              {
+                "text": "Que tal"
+              },
+              {
+                "text": "Olha o horário bora"
+              },
+              {
+                "text": "Sabe o que seria uma boa ideia?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Fazer pedido",
+                "value": {
+                  "input": {
+                    "text": "Quero fazer meu pedido"
+                  }
+                }
+              },
+              {
+                "label": "Ver cardápio",
+                "value": {
+                  "input": {
+                    "text": "Quero ver o cardápio"
+                  }
+                }
+              },
+              {
+                "label": "Ver o horário de Funcionamento",
+                "value": {
+                  "input": {
+                    "text": "Qual o horário de funcionamento?"
+                  }
+                }
+              },
+              {
+                "label": "Ver as formas de Pagamento",
+                "value": {
+                  "input": {
+                    "text": "Quais as formas de pagamento aceitas?"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1595523379164",
+      "context": {},
+      "disabled": true,
+      "conditions": "true",
+      "dialog_node": "response_10_1595616106052"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Resumo de seu pedido de $sabor $preparo $adicionais $bebidas Qual o cep para entrega?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_6_1595520383655",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1595520383697",
+      "previous_sibling": "handler_2_1595520383697"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "O CEP para entrega é $cep "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_6_1595520383655",
+      "event_name": "filled",
+      "dialog_node": "handler_4_1595799317454",
+      "previous_sibling": "handler_1_1595794998173"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Favor informar um cep válido. 00000-000. Se estiver com problemas, acesse o site do <a href=\"https://correios.com.br\">Correios</a> para ver o CEP do seu local de entrega"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_6_1595520383655",
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "event_name": "nomatch",
+      "dialog_node": "handler_1_1595794998173",
+      "previous_sibling": "handler_4_1595520383697"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1595520383655",
+      "context": {
+        "cep": "@cep.literal",
+        "undefined": "$sabor"
+      },
+      "conditions": "@cep",
+      "event_name": "input",
+      "dialog_node": "handler_2_1595520383697"
+    },
+    {
+      "type": "standard",
+      "title": "Deseja alguma bebida?",
+      "output": {
+        "generic": [
+          {
+            "title": "Você deseja alguma bebida?",
+            "options": [
+              {
+                "label": "Sim",
+                "value": {
+                  "input": {
+                    "text": "sim"
+                  }
+                }
+              },
+              {
+                "label": "Não",
+                "value": {
+                  "input": {
+                    "text": "não"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1595336058486",
+      "conditions": "true",
+      "dialog_node": "node_5_1595422901437",
+      "previous_sibling": "node_9_1595422609067"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_10_1595336058486",
+      "variable": "$preparo",
+      "dialog_node": "slot_10_1595421219506",
+      "previous_sibling": "node_5_1595422901437"
+    },
+    {
+      "type": "standard",
+      "title": "Deseja algum adicional?",
+      "output": {
+        "generic": [
+          {
+            "title": "Deseja algum adicional?",
+            "options": [
+              {
+                "label": "Sim",
+                "value": {
+                  "input": {
+                    "text": "sim"
+                  }
+                }
+              },
+              {
+                "label": "Não",
+                "value": {
+                  "input": {
+                    "text": "não"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1595336058486",
+      "conditions": "true",
+      "dialog_node": "node_9_1595422609067"
+    },
+    {
+      "type": "frame",
+      "title": "Anotando resposta de adicional: Não",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1595422609067",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_5_1595422901437"
+      },
+      "conditions": "@sim_não:não",
+      "dialog_node": "node_8_1595423009788",
+      "previous_sibling": "node_10_1595422999078"
+    },
+    {
+      "type": "frame",
+      "title": "Anotando resposta de adicional: Sim",
+      "parent": "node_9_1595422609067",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_5_1595422901437"
+      },
+      "conditions": "@sim_não:sim",
+      "dialog_node": "node_10_1595422999078"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1595427440126",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1595427440140",
+      "previous_sibling": "handler_2_1595427440140"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_5_1595427440126",
+      "event_name": "input",
+      "dialog_node": "handler_2_1595427440140"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_9_1595256314792",
+      "variable": "$sabor",
+      "dialog_node": "slot_6_1595257080881",
+      "previous_sibling": "node_10_1595336058486"
+    },
+    {
+      "type": "frame",
+      "title": "Forma de preparo",
+      "parent": "node_9_1595256314792",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_9_1595422609067"
+      },
+      "conditions": "@sabor != \"Califórnia\" && @sabor != \"Filadélfia\"",
+      "dialog_node": "node_10_1595336058486",
+      "previous_sibling": "node_3_1595428517117"
+    },
+    {
+      "type": "standard",
+      "title": "California ou Filadelfia?",
+      "parent": "node_9_1595256314792",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_5_1595422901437"
+      },
+      "conditions": "@sabor:Califórnia || @sabor:Filadélfia",
+      "dialog_node": "node_3_1595428517117"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_10_1595422999078",
+      "variable": "$adicionais",
+      "dialog_node": "slot_4_1595424158831"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Mestre Sushiman olha para você e se pergunta como você prefere seu $sabor"
+              },
+              {
+                "text": "Temos as seguintes opções de preparos:"
+              },
+              {
+                "text": "Você não prefere uma dessas opções?"
+              },
+              {
+                "text": "Um temaki de $sabor com qual preparo?"
+              },
+              {
+                "text": "Mestre Suhiman olha para você e apresenta as opções:"
+              },
+              {
+                "text": "寿司職人のマスターは言い訳をします。私はこのテクニックをマスターしていません、と彼は失望したと言います。そしてそれはそれが完全に発展するためのオプションを提示します：\n(mestre sushiman se desculpa. Não domino essa técnica, ele diz desapontado. E apresenta as opções ao qual ele desenvolve com perfeição:)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Cru/Tradicional",
+                "value": {
+                  "input": {
+                    "text": "tradicional"
+                  }
+                }
+              },
+              {
+                "label": "Defumado",
+                "value": {
+                  "input": {
+                    "text": "defumado"
+                  }
+                }
+              },
+              {
+                "label": "Empanado/Hot",
+                "value": {
+                  "input": {
+                    "text": "empanado"
+                  }
+                }
+              },
+              {
+                "label": "Flambado",
+                "value": {
+                  "input": {
+                    "text": "flambado"
+                  }
+                }
+              },
+              {
+                "label": "Grelhado",
+                "value": {
+                  "input": {
+                    "text": "grelhado"
+                  }
+                }
+              },
+              {
+                "label": "Light/Sem arroz",
+                "value": {
+                  "input": {
+                    "text": "light"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_10_1595421219506",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1595421219542",
+      "previous_sibling": "handler_5_1595421219542"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Mestre Sushiman começa a preparar seu $sabor $preparo"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_10_1595421219506",
+      "event_name": "filled",
+      "dialog_node": "handler_4_1595421819931",
+      "previous_sibling": "handler_7_1595421219542"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Mestre Sushiman balança a cabeça, ele não é capaz de preparar seu $sabor dessa forma. "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_10_1595421219506",
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "event_name": "nomatch",
+      "dialog_node": "handler_8_1595421820889",
+      "previous_sibling": "handler_4_1595421819931"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1595421219506",
+      "context": {
+        "preparo": "@preparo"
+      },
+      "conditions": "@preparo",
+      "event_name": "input",
+      "dialog_node": "handler_5_1595421219542"
+    },
+    {
+      "type": "frame",
+      "title": "Fazer pedido de bebida",
+      "parent": "node_8_1595255703158",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_3_1595423679790"
+      },
+      "conditions": "@cardapio:bebidas || @sim_não:sim",
+      "dialog_node": "node_9_1595342465633",
+      "previous_sibling": "node_9_1595256314792"
+    },
+    {
+      "type": "standard",
+      "title": "Limpando variáveis de Ambiente",
+      "parent": "node_8_1595255703158",
+      "context": {
+        "cep": null,
+        "sabor": null,
+        "bebidas": null,
+        "preparo": null,
+        "pagamento": null,
+        "adicionais": null
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1595246540665"
+      },
+      "conditions": "true",
+      "dialog_node": "node_9_1595423685922",
+      "previous_sibling": "node_3_1595423679790"
+    },
+    {
+      "type": "frame",
+      "title": "Informações cliente",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_8_1595255703158",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_9_1595794259716"
+      },
+      "conditions": "true",
+      "dialog_node": "node_3_1595423679790",
+      "previous_sibling": "node_9_1595342465633"
+    },
+    {
+      "type": "frame",
+      "title": "Fazer pedido de temaki",
+      "parent": "node_8_1595255703158",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_3_1595428517117"
+      },
+      "conditions": "@cardapio:temaki",
+      "dialog_node": "node_9_1595256314792"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1595423679790",
+      "variable": "$cep",
+      "dialog_node": "slot_6_1595520383655",
+      "previous_sibling": "node_9_1595794259716"
+    },
+    {
+      "type": "frame",
+      "title": "Formas de pagamento",
+      "parent": "node_3_1595423679790",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_8_1595522930557"
+      },
+      "conditions": "true",
+      "dialog_node": "node_9_1595794259716"
+    },
+    {
+      "type": "frame",
+      "title": "Anotando resposta de bebida: Não",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_5_1595422901437",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_3_1595423679790"
+      },
+      "conditions": "@sim_não:não",
+      "dialog_node": "node_9_1595423025662",
+      "previous_sibling": "node_10_1595423020896"
+    },
+    {
+      "type": "frame",
+      "title": "Anotando resposta de bebida: Sim",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_5_1595422901437",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_9_1595342465633"
+      },
+      "conditions": "@sim_não:sim",
+      "dialog_node": "node_10_1595423020896"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1595246177928",
+      "dialog_node": "slot_9_1595429519389"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Não possuímos essa opção de bebida."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_5_1595427016416",
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "event_name": "nomatch",
+      "dialog_node": "handler_8_1595427061495",
+      "previous_sibling": "handler_10_1595427016451"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Temos as seguintes opções de bebidas",
+            "options": [
+              {
+                "label": "Água",
+                "value": {
+                  "input": {
+                    "text": "agua"
+                  }
+                }
+              },
+              {
+                "label": "Cerveja",
+                "value": {
+                  "input": {
+                    "text": "Cerveja"
+                  }
+                }
+              },
+              {
+                "label": "Coca-Cola",
+                "value": {
+                  "input": {
+                    "text": "Coca-Cola"
+                  }
+                }
+              },
+              {
+                "label": "Guaraná",
+                "value": {
+                  "input": {
+                    "text": "Guaraná"
+                  }
+                }
+              },
+              {
+                "label": "Sprite",
+                "value": {
+                  "input": {
+                    "text": "Sprite"
+                  }
+                }
+              },
+              {
+                "label": "Suco de laranja",
+                "value": {
+                  "input": {
+                    "text": "Suco de laranja"
+                  }
+                }
+              },
+              {
+                "label": "Suco de limão",
+                "value": {
+                  "input": {
+                    "text": "Suco de limão"
+                  }
+                }
+              },
+              {
+                "label": "Vinho",
+                "value": {
+                  "input": {
+                    "text": "vinho"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_5_1595427016416",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1595427016451",
+      "previous_sibling": "handler_6_1595427016451"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1595427016416",
+      "context": {
+        "bebidas": "@bebidas"
+      },
+      "conditions": "@bebidas",
+      "event_name": "input",
+      "dialog_node": "handler_6_1595427016451"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Gomennasai!「ごめんなさい」( Me desculpe!)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1595254602267",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_5_1595523832044"
+      },
+      "conditions": "#off-topic",
+      "dialog_node": "node_10_1595253898354",
+      "previous_sibling": "node_1_1595254341770"
+    },
+    {
+      "type": "standard",
+      "title": "Reset variables",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_3_1595254602267",
+      "context": {
+        "cep": null,
+        "sabor": null,
+        "bebidas": null,
+        "preparo": null,
+        "adicionais": null
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_1_1595523379164"
+      },
+      "conditions": "true",
+      "dialog_node": "node_5_1595523832044",
+      "previous_sibling": "node_10_1595253898354"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "OK vamos iniciar novamente."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1595254602267",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_5_1595523832044"
+      },
+      "conditions": "#reset",
+      "dialog_node": "node_1_1595254341770"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_9_1595342465633",
+      "variable": "$bebidas",
+      "dialog_node": "slot_5_1595427016416"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1595423685922",
+      "dialog_node": "slot_5_1595427440126"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Mestre sushiman habilmente adiciona $adicionais ao seu $sabor $preparo"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1595424158831",
+      "event_name": "filled",
+      "dialog_node": "handler_1_1595428349333",
+      "previous_sibling": "handler_8_1595424206325"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Infelizmente não podemos adicionar isso ao $sabor."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1595424158831",
+      "event_name": "nomatch",
+      "dialog_node": "handler_8_1595424206325",
+      "previous_sibling": "handler_9_1595424158875"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Temos as seguintes opções de adicionais:"
+              },
+              {
+                "text": "Você não prefere uma dessas opções?"
+              },
+              {
+                "text": "Mestre Suhiman olha para você e apresenta as opções:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Amêndoas",
+                "value": {
+                  "input": {
+                    "text": "Amêndoas"
+                  }
+                }
+              },
+              {
+                "label": "Azeite",
+                "value": {
+                  "input": {
+                    "text": "Azeite"
+                  }
+                }
+              },
+              {
+                "label": "Cebolinha",
+                "value": {
+                  "input": {
+                    "text": "cebolinha"
+                  }
+                }
+              },
+              {
+                "label": "Cenoura",
+                "value": {
+                  "input": {
+                    "text": "cenoura"
+                  }
+                }
+              },
+              {
+                "label": "Completo (cebolinha e cream cheese)",
+                "value": {
+                  "input": {
+                    "text": "cebolinha e cream cheese"
+                  }
+                }
+              },
+              {
+                "label": "Couve",
+                "value": {
+                  "input": {
+                    "text": "couve"
+                  }
+                }
+              },
+              {
+                "label": "Cream cheese",
+                "value": {
+                  "input": {
+                    "text": "cream cheese"
+                  }
+                }
+              },
+              {
+                "label": "Doritos",
+                "value": {
+                  "input": {
+                    "text": "Doritos"
+                  }
+                }
+              },
+              {
+                "label": "Gergelim",
+                "value": {
+                  "input": {
+                    "text": "Gergelim"
+                  }
+                }
+              },
+              {
+                "label": "Laranja",
+                "value": {
+                  "input": {
+                    "text": "Laranja"
+                  }
+                }
+              },
+              {
+                "label": "Maionese",
+                "value": {
+                  "input": {
+                    "text": "Maionese"
+                  }
+                }
+              },
+              {
+                "label": "Manga",
+                "value": {
+                  "input": {
+                    "text": "Manga"
+                  }
+                }
+              },
+              {
+                "label": "Molho Tarê",
+                "value": {
+                  "input": {
+                    "text": "Molho Tarê"
+                  }
+                }
+              },
+              {
+                "label": "Morango",
+                "value": {
+                  "input": {
+                    "text": "Morango"
+                  }
+                }
+              },
+              {
+                "label": "Pepino",
+                "value": {
+                  "input": {
+                    "text": "pepino"
+                  }
+                }
+              },
+              {
+                "label": "Spicy (Pimenta japonesa)",
+                "value": {
+                  "input": {
+                    "text": "Pimenta japonesa"
+                  }
+                }
+              },
+              {
+                "label": "Raspas de Limão",
+                "value": {
+                  "input": {
+                    "text": "Raspas de Limão"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_4_1595424158831",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1595424158875",
+      "previous_sibling": "handler_8_1595424158875"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1595424158831",
+      "context": {
+        "adicionais": "@adicionais"
+      },
+      "conditions": "@adicionais",
+      "event_name": "input",
+      "dialog_node": "handler_8_1595424158875"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Cardápio",
+            "options": [
+              {
+                "label": "Temaki",
+                "value": {
+                  "input": {
+                    "text": "temaki"
+                  }
+                }
+              },
+              {
+                "label": "Bebidas",
+                "value": {
+                  "input": {
+                    "text": "bebidas"
+                  }
+                }
+              }
+            ],
+            "description": "Aqui está a lista de opções disponíveis",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1595344062210",
+      "conditions": "#ver_cardapio || #fazerPedido",
+      "dialog_node": "node_8_1595255703158"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Na Temakeria Kashi valorizamos seu cash, qualquer Temaki por 20 reais. Aceitamos qualquer cartão de crédito Visa e Mastercard, débito, Vale Refeição (Ticket, VR e Sodexo). Temos a opção de levar a maquininha. Em caso de dinheiro informe se será necessário enviar troco na hora de fazer seu pedido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1595253612237",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1595523379164"
+      },
+      "conditions": "#forma_pagamento",
+      "dialog_node": "node_6_1595251271010",
+      "previous_sibling": "node_6_1595252291332"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Funcionamos de terças aos domingos, das 18 as 22."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1595253612237",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1595523379164"
+      },
+      "conditions": "#horario_funcionamento",
+      "dialog_node": "node_6_1595252291332"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Levaremos a maquininha para o cep $cep para o pagamento do seu pedido de $sabor $preparo $adicionais $bebidas"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1595794259716",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_9_1595423685922"
+      },
+      "conditions": "@formas_pagamento != \"Dinheiro\"",
+      "dialog_node": "node_10_1595799841793",
+      "previous_sibling": "node_8_1595522930557"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_9_1595794259716",
+      "variable": "$formas_pagamento",
+      "dialog_node": "slot_1_1595794377283",
+      "previous_sibling": "node_10_1595799841793"
+    },
+    {
+      "type": "standard",
+      "title": "Cartão",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O pedido de de $sabor $preparo $adicionais $bebidas será enviado para $cep."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1595794259716",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_9_1595423685922"
+      },
+      "conditions": "@formas_pagamento:Dinheiro",
+      "dialog_node": "node_8_1595522930557"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1595523597508",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1595523597533",
+      "previous_sibling": "handler_7_1595523597533"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_4_1595523597508",
+      "event_name": "input",
+      "dialog_node": "handler_7_1595523597533"
+    },
+    {
+      "type": "standard",
+      "parent": "node_5_1595253777269",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1595246540665"
+      },
+      "conditions": "#sair",
+      "dialog_node": "node_6_1595254718472",
+      "previous_sibling": "node_3_1595244424612"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "De nada."
+              },
+              {
+                "text": "Nós que agradecemos."
+              },
+              {
+                "text": "De nada, nós que agradecemos."
+              },
+              {
+                "text": "A Temakeria Kashi agradece a preferência."
+              },
+              {
+                "text": "Tondemo arimasen (de nada)"
+              },
+              {
+                "text": "Dou itashi mashite (You're welcome)"
+              },
+              {
+                "text": "douitashimashite (de nada)"
+              },
+              {
+                "text": "どう致しまして (De nada)"
+              },
+              {
+                "text": "こちらこそ (Eu que agradeço)"
+              },
+              {
+                "text": "Eu que agradeço"
+              },
+              {
+                "text": "Kochirakoso (Eu que agradeço)"
+              },
+              {
+                "text": "Tranquilo, o prazer foi nosso"
+              },
+              {
+                "text": "いえいえ (Tranquilo/sem problemas)"
+              },
+              {
+                "text": "ie ie (Tranquilo/sem problemas)"
+              },
+              {
+                "text": "おそれいります (Obrigado estimado cliente)"
+              },
+              {
+                "text": "Osore irimasu (Obrigado estimado cliente)"
+              },
+              {
+                "text": "ううん、いつでも声かけて (De nada, qualquer coisa é só falar)"
+              },
+              {
+                "text": "itsudemokoekakete (De nada, qualquer coisa é só falar)"
+              },
+              {
+                "text": "大丈夫 (Sem problemas, não se preocupe)"
+              },
+              {
+                "text": "You're welcome"
+              },
+              {
+                "text": "daijoubu (Sem problemas, não se preocupe)"
+              },
+              {
+                "text": "全然 (Não foi nada, totalmente sem problemas)"
+              },
+              {
+                "text": "zenzen (Não foi nada, totalmente sem problemas)"
+              },
+              {
+                "text": "Eu que agradeço! É bom poder te ajudar"
+              },
+              {
+                "text": "Dôitashimashite (Por nada)"
+              },
+              {
+                "text": "どういたしまして(Por nada)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_5_1595253777269",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1595246540665"
+      },
+      "conditions": "#agradecimento",
+      "dialog_node": "node_3_1595244424612",
+      "previous_sibling": "node_2_1595246540665"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_5_1595253777269",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_5_1595523832044"
+      },
+      "conditions": "#saudacao",
+      "dialog_node": "node_7_1595254806044",
+      "previous_sibling": "node_6_1595254718472"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Posso te ajudar"
+              },
+              {
+                "text": "Ainda posse te ajudar"
+              },
+              {
+                "text": "Se quiser ajuda para"
+              },
+              {
+                "text": "Que tal"
+              },
+              {
+                "text": "Olha o horário bora"
+              },
+              {
+                "text": "Sabe o que seria uma boa ideia?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Fazer pedido",
+                "value": {
+                  "input": {
+                    "text": "Quero fazer meu pedido"
+                  }
+                }
+              },
+              {
+                "label": "Ver cardápio",
+                "value": {
+                  "input": {
+                    "text": "Quero ver o cardápio"
+                  }
+                }
+              },
+              {
+                "label": "Ver o horário de Funcionamento",
+                "value": {
+                  "input": {
+                    "text": "Qual o horário de funcionamento?"
+                  }
+                }
+              },
+              {
+                "label": "Ver as formas de Pagamento",
+                "value": {
+                  "input": {
+                    "text": "Quais as formas de pagamento aceitas?"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1595253777269",
+      "conditions": "#ajuda",
+      "dialog_node": "node_9_1595246177928",
+      "previous_sibling": "node_7_1595254806044"
+    },
+    {
+      "type": "folder",
+      "title": "Reset",
+      "parent": "node_5_1595253777269",
+      "dialog_node": "node_3_1595254602267",
+      "previous_sibling": "node_9_1595246177928"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Até a próxima"
+              },
+              {
+                "text": "Temakeria Kashi agradece"
+              },
+              {
+                "text": "Obrigado pela preferência"
+              },
+              {
+                "text": "arigatougozaimashitta (Muito Obrigado)"
+              },
+              {
+                "text": "Espero te ver novamente"
+              },
+              {
+                "text": "Volte sempre"
+              },
+              {
+                "text": "jyaa ne (Até logo)"
+              },
+              {
+                "text": "じゃね (Até logo)"
+              },
+              {
+                "text": "また見るよ(Te vejo em breve)"
+              },
+              {
+                "text": "Mata miruyo (Te vejo em breve)"
+              },
+              {
+                "text": "バイバイ(Bye Bye)"
+              },
+              {
+                "text": "アディオス (Adios)"
+              },
+              {
+                "text": "Jyaa (Até)"
+              },
+              {
+                "text": "じゃあ (Até)"
+              },
+              {
+                "text": "Jyaa ne (Até logo)"
+              },
+              {
+                "text": "Mata ne (Até logo)"
+              },
+              {
+                "text": "Jyaa mata (Até logo)"
+              },
+              {
+                "text": "じゃあまた (Até logo)"
+              },
+              {
+                "text": "Mata kondo (Até breve)"
+              },
+              {
+                "text": "また 今度 (Até breve)"
+              },
+              {
+                "text": "Dewa mata (Até mais tarde)"
+              },
+              {
+                "text": "ではまた (Até mais tarde)"
+              },
+              {
+                "text": "Mata aou (Até nos encontrarmos novamente)"
+              },
+              {
+                "text": "また会おう(Até nos encontrarmos novamente)"
+              },
+              {
+                "text": "Sorejyaa, mata ne (Então, até logo!)"
+              },
+              {
+                "text": "それじゃ(Então, até logo!)"
+              },
+              {
+                "text": "Até a próxima! Fico feliz em poder te ajudar"
+              },
+              {
+                "text": "Dômo arigatô gozaimasu (Muito obrigado)"
+              },
+              {
+                "text": "どうもありがとうございます (Muito obrigado)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_5_1595253777269",
+      "conditions": "#despedida || true",
+      "dialog_node": "node_2_1595246540665"
+    },
+    {
+      "type": "folder",
+      "title": "pedido",
+      "dialog_node": "node_2_1595344062210",
+      "previous_sibling": "node_1_1595523379164"
+    },
+    {
+      "type": "standard",
+      "title": "menu",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Posso te ajudar"
+              },
+              {
+                "text": "Ainda posse te ajudar"
+              },
+              {
+                "text": "Se quiser ajuda para"
+              },
+              {
+                "text": "Que tal"
+              },
+              {
+                "text": "Olha o horário bora"
+              },
+              {
+                "text": "Sabe o que seria uma boa ideia?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Ver cardápio",
+                "value": {
+                  "input": {
+                    "text": "Quero ver o cardápio"
+                  }
+                }
+              },
+              {
+                "label": "Ver o horário de Funcionamento",
+                "value": {
+                  "input": {
+                    "text": "Qual o horário de funcionamento?"
+                  }
+                }
+              },
+              {
+                "label": "Ver as formas de Pagamento",
+                "value": {
+                  "input": {
+                    "text": "Quais as formas de pagamento aceitas?"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "context": {},
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "welcome",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1595523379164",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "folder",
+      "title": "FAQ",
+      "dialog_node": "node_6_1595253612237",
+      "previous_sibling": "node_2_1595344062210"
+    },
+    {
+      "type": "folder",
+      "title": "Chit Chat",
+      "dialog_node": "node_5_1595253777269",
+      "previous_sibling": "node_6_1595253612237"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              },
+              {
+                "text": "Desculpas... Não entendi a sua pergunta. Eu vou anotar essa dúvida e pedir para o meu criador me re-treinar com essa nova pergunta"
+              },
+              {
+                "text": "Doushiyou「どうしよう」(O Que fazer?)"
+              },
+              {
+                "text": "Eu não entendi... "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_5_1595523832044"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_5_1595253777269",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá. Como posso te ajudar?"
+              },
+              {
+                "text": "Irasshaimase! (Bem-vindo)"
+              },
+              {
+                "text": "Bem-vindo a temakeria kashi"
+              },
+              {
+                "text": "いらっしゃいませ!  (Bem-vindo!)"
+              },
+              {
+                "text": "Yôkoso (Bem-vindo!)"
+              },
+              {
+                "text": "ようこそ (Bem-vindo!)"
+              },
+              {
+                "text": "He Yôkoso (Seja Bem-vindo!)"
+              },
+              {
+                "text": "へようこそ (Seja Bem-vindo!)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_1_1595523379164"
+      },
+      "conditions": "welcome || conversation_start",
+      "dialog_node": "Bem-vindo"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "Temakeria",
+  "language": "pt-br",
+  "description": ""
+}
